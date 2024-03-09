@@ -31,16 +31,16 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Kamrankhosa\\LaravelVoipnow\\Tests\\": "tests"
+            "KamranKhosa\\LaravelVoipnow\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Kamrankhosa\\LaravelVoipnow\\VoipNowServiceProvider"
+                "KamranKhosa\\LaravelVoipnow\\VoipNowServiceProvider"
             ],
             "aliases": {
-                "VoipNow": "Kamrankhosa\\LaravelVoipnow\\VoipNowFacade"
+                "VoipNow": "KamranKhosa\\LaravelVoipnow\\VoipNowFacade"
             }
         }
     },
@@ -51,5 +51,7 @@
     },
     "config": {
         "sort-packages": true
-    }
+    },
+    "version": "1.0.0"
+
 }
