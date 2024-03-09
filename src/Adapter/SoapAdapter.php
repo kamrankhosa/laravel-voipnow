@@ -1,10 +1,10 @@
 <?php
 
-namespace KamranKhosa\VoipNow\Adapter;
+namespace KamranKhosa\LaravelVoipnow\Adapter;
 
 use Auth;
 use GuzzleHttp\Client as Guzzle;
-use KamranKhosa\VoipNow\Interface\ConnectorInterface;
+use KamranKhosa\LaravelVoipnow\Interface\ConnectorInterface;
 
 class SoapAdapter implements ConnectorInterface
 {

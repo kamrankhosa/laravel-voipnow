@@ -1,6 +1,6 @@
 <?php
 
-namespace KamranKhosa\VoipNow;
+namespace KamranKhosa\LaravelVoipnow;
 
 use Illuminate\Container\Container;
 use Illuminate\Support\ServiceProvider;

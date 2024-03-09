@@ -1,6 +1,6 @@
 <?php
 
-namespace KamranKhosa\VoipNow;
+namespace KamranKhosa\LaravelVoipnow;
 
 use Illuminate\Config\Repository;
 use KamranKhosa\VoipNow\Interface\ConnectorInterface;
