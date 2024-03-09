@@ -31,16 +31,16 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "KamranKhosa\\LaravelVoipnow\\Tests\\": "tests"
+            "KamranKhosa\\VoipNow\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "KamranKhosa\\LaravelVoipnow\\VoipNowServiceProvider"
+                "KamranKhosa\\VoipNow\\VoipNowServiceProvider"
             ],
             "aliases": {
-                "VoipNow": "KamranKhosa\\LaravelVoipnow\\VoipNowFacade"
+                "VoipNow": "KamranKhosa\\VoipNow\\VoipNowFacade"
             }
         }
     },

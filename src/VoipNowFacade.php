@@ -1,6 +1,6 @@
 <?php
 
-namespace KamranKhosa\LaravelVoipnow;
+namespace KamranKhosa\VoipNow;
 
 use Illuminate\Support\Facades\Facade;
 class VoipNowFacade extends Facade
